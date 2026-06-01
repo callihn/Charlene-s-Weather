@@ -1,3 +1,5 @@
+> *Created by Matthew Callihan in loving memory of his wife Charlene — a devoted wife, California native, Skywarn Weather Spotter and lifelong weather enthusiast.*
+
 # Charlene-s-Weather
 Powered by NOAA/NWS data (US Only), Charlene's Weather delivers accurate, hyperlocal weather information with a clean, intuitive interface.
 
