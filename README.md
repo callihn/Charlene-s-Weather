@@ -15,7 +15,7 @@ Because this app is developed independently and distributed as an APK outside of
 
 ---
 
-## 🌟 Features
+## 🪄 Features
 
 - **Pull-to-Refresh** — Swipe down on the main screen to refresh GPS location, weather data, forecast, and radar. Horizontal scroll of the 7-day forecast won't accidentally trigger a refresh.
 - **NWS API Compliance** — All API requests to `api.weather.gov` include a proper User-Agent identity header. A built-in 5-minute throttle (respecting server `Cache-Control` hints) prevents excessive requests. The throttle is bypassed automatically when your location changes significantly, ensuring fresh data when you move.
