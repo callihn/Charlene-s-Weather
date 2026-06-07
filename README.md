@@ -61,22 +61,17 @@ To provide accurate data and home screen updates, the app requires the following
 
 ---
 
-## 📸 Screenshots
+# 📸 Screenshots
 
 <details>
 <summary>📐 Click here to expand app screenshots</summary>
 <br />
 
-<img width="1080" height="2400" alt="Screenshot_20260531-192456_Charlene&#39;s Weather" src="https://github.com/user-attachments/assets/514be1cf-1ee0-4416-885f-12e6f677cfef" />
-<img width="1080" height="2400" alt="Screenshot_20260531-192507_Charlene&#39;s Weather" src="https://github.com/user-attachments/assets/f06440f9-3902-4eed-bb84-c3fce4937d4d" />
-<img width="1080" height="2400" alt="Screenshot_20260531-192522_Charlene&#39;s Weather" src="https://github.com/user-attachments/assets/be60aab0-8c0f-4a2d-9571-4d2ac63272dc" />
-<img width="1080" height="2400" alt="Screenshot_20260531-192551_Charlene&#39;s Weather" src="https://github.com/user-attachments/assets/44ad41ac-7bc8-4da2-b833-b8b7b0a060c7" />
-<img width="1080" height="2400" alt="Screenshot_20260531-192605_Charlene&#39;s Weather" src="https://github.com/user-attachments/assets/48a662e2-14f3-4515-9ae1-3b7b997f355d" />
-<img width="1080" height="2400" alt="Screenshot_20260531-192618_Charlene&#39;s Weather" src="https://github.com/user-attachments/assets/37bbed6a-047c-44fb-a084-5d4826055f49" />
-<img width="1080" height="2400" alt="Screenshot_20260531-192734_Charlene&#39;s Weather" src="https://github.com/user-attachments/assets/7669414e-28e2-4c97-9564-4fd0f3d1809f" />
-<img width="1080" height="2400" alt="Screenshot_20260531-192747_Charlene&#39;s Weather" src="https://github.com/user-attachments/assets/1ad07ffb-7829-4f44-821b-0a1370526067" />
-<img width="1080" height="2400" alt="Screenshot_20260531-192820_Charlene&#39;s Weather" src="https://github.com/user-attachments/assets/891c7bb9-58e3-442e-a9ab-2c0378638315" />
-<img width="1080" height="2400" alt="Screenshot_20260531-192950_Charlene&#39;s Weather" src="https://github.com/user-attachments/assets/ec194b18-4303-47f8-b334-0e2c2cc65742" />
-<img width="1080" height="2400" alt="Screenshot_20260531-205521_Nova Launcher" src="https://github.com/user-attachments/assets/3798f64e-4218-4e1a-af16-c46e90f6a083" />
+| | | |
+| :---: | :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/514be1cf-1ee0-4416-885f-12e6f677cfef" width="220" alt="Screenshot 1" /> | <img src="https://github.com/user-attachments/assets/f06440f9-3902-4eed-bb84-c3fce4937d4d" width="220" alt="Screenshot 2" /> | <img src="https://github.com/user-attachments/assets/be60aab0-8c0f-4a2d-9571-4d2ac63272dc" width="220" alt="Screenshot 3" /> |
+| <img src="https://github.com/user-attachments/assets/44ad41ac-7bc8-4da2-b833-b8b7b0a060c7" width="220" alt="Screenshot 4" /> | <img src="https://github.com/user-attachments/assets/48a662e2-14f3-4515-9ae1-3b7b997f355d" width="220" alt="Screenshot 5" /> | <img src="https://github.com/user-attachments/assets/37bbed6a-047c-44fb-a084-5d4826055f49" width="220" alt="Screenshot 6" /> |
+| <img src="https://github.com/user-attachments/assets/7669414e-28e2-4c97-9564-4fd0f3d1809f" width="220" alt="Screenshot 7" /> | <img src="https://github.com/user-attachments/assets/1ad07ffb-7829-4f44-821b-0a1370526067" width="220" alt="Screenshot 8" /> | <img src="https://github.com/user-attachments/assets/891c7bb9-58e3-442e-a9ab-2c0378638315" width="220" alt="Screenshot 9" /> |
+| <img src="https://github.com/user-attachments/assets/ec194b18-4303-47f8-b334-0e2c2cc65742" width="220" alt="Screenshot 10" /> | <img src="https://github.com/user-attachments/assets/3798f64e-4218-4e1a-af16-c46e90f6a083" width="220" alt="Widget Preview" /> | |
 
 </details>
