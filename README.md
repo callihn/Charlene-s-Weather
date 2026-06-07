@@ -1,4 +1,4 @@
-# 🌤️ Charlene's Weather App
+# 🌤️ Charlene's Weather
 
 > *Created by Matthew Callihan in loving memory of his wife Charlene — a devoted wife, California native, Skywarn Weather Spotter, and lifelong weather enthusiast.*
 
