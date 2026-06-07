@@ -18,7 +18,7 @@ Because this app is developed independently and distributed as an APK outside of
 # 📸 Screenshots
 
 <details>
-<summary>📐 Click here to expand app screenshots</summary>
+<summary>Click here to expand app screenshots</summary>
 <br />
 
 | | | |
@@ -54,7 +54,7 @@ Because this app is developed independently and distributed as an APK outside of
 
 ---
 
-## 📱 How to Use
+## 📚 How to Use
 
 - **Refresh weather** — Weather data fetches from the National Weather Service each time the app opens. Swipe down on the main screen or tap the GPS icon to manually refresh your location and weather data. Refreshes are limited to once every 5 minutes unless your location changes.
 - **Open the menu** — Tap the three-dot menu icon (`⋮`) to search locations, toggle themes, view the about page, or donate.
@@ -66,7 +66,7 @@ Because this app is developed independently and distributed as an APK outside of
 
 ---
 
-## 🛠️ Technical Details & Permissions
+## 🔐 Permissions
 
 To provide accurate data and home screen updates, the app requires the following standard Android permissions:
 
