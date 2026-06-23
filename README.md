@@ -74,6 +74,6 @@ To provide accurate data, background widget updates, and seamless location track
 | INTERNET | Required to securely fetch live weather maps, radar tiles, and regional forecasts directly from NOAA/NWS servers. |
 | ACCESS_FINE_LOCATION | Allows the app to pinpoint your precise GPS coordinates for highly accurate, neighborhood-level weather reporting. |
 | ACCESS_COARSE_LOCATION | Serves as an immediate cell-tower/Wi-Fi fallback to determine your general city area if high-precision GPS is turned off. |
-| ACCESS_BACKGROUND_LOCATION | *[Optional]* Enables the home screen widget to periodically check your position and update weather profiles while your device is asleep or traveling. |
-| RECEIVE_BOOT_COMPLETED | Automatically reschedules background WorkManager update queues the second your phone or tablet finishes turning on. |
-| FOREGROUND_SERVICE_DATA_SYNC | Ensures stable background updates for the 15-minute widget refresh interval without being preemptively terminated by strict Android OS memory management policies. |
+| ACCESS_BACKGROUND_LOCATION | Enables the home screen widget to periodically check your position and update weather profiles while your device is asleep or traveling. |
+| RECEIVE_BOOT_COMPLETED | Automatically updates the second your phone or tablet finishes turning on. |
+| FOREGROUND_SERVICE_DATA_SYNC | Ensures stable background updates for the 5-minute widget refresh interval without being preemptively terminated by strict Android OS memory management policies. |
