@@ -6,13 +6,6 @@ Powered by NOAA/NWS data (US Only), Charlene's Weather delivers accurate, hyperl
 
 ---
 
-### 🛡️ Clean Scan & Security
-For full transparency, you can view the live, independent security scan verified by VirusTotal showing the release package is safe and secure:
-
-[![VirusTotal Scan](https://img.shields.io/badge/VirusTotal-Safe%20Scan-0070f3?style=for-the-badge&logo=virustotal)](https://www.virustotal.com/gui/url/3d08578a20dfba1be309d9169582ef333327075c673bd23901449101ad6cb9a3/detection)
-
----
-
 ### 📥 Download the Latest Version
 Because this app is developed independently and distributed as an APK outside of the Google Play Store, the installation file is hosted right here on the project's release page:
 
