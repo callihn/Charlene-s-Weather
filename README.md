@@ -43,7 +43,6 @@ Because this app is developed independently and distributed as an APK outside of
 - **Light & Dark Themes** — Toggle between a warm tan/royal blue light theme and a pure black dark theme.
 - **Home Screen Widget** — At-a-glance weather with current conditions and a 3-day forecast. Weather data refreshes when the app is opened and periodically in the background (every 15 minutes via WorkManager).
 - **Tablet Optimized** — Automatic tablet layout with larger text, icons, and spacious design for 7"+ devices.
-- **Amazon App Store** — Fire tablet compatible.
 - **US Station Search** — Find any US ASOS weather station with live filtering as you type, powered by the built-in stations database for instant offline results.
 - **Temperature Color Coding** 
   * 🟪 **Purple:** Below 33°F
