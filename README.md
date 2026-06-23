@@ -9,7 +9,7 @@ Powered by NOAA/NWS data (US Only), Charlene's Weather delivers accurate, hyperl
 ### 📥 Download the Latest Version
 Because this app is developed independently and distributed as an APK outside of the Google Play Store, the installation file is hosted right here on the project's release page:
 
-[![Get the App](https://img.shields.io/github/v/release/callihn/Charlene-s-Weather?style=for-the-badge&label=%F0%9F%9A%80%20Get%20the%20App&color=2ea44f)\](https://github.com/callihn/Charlene-s-Weather/releases/latest)
+[![Get the App](https://img.shields.io/github/v/release/callihn/Charlene-s-Weather?style=for-the-badge&label=%F0%9F%9A%80%20Get%20the%20App&color=2ea44f)](https://github.com/callihn/Charlene-s-Weather/releases/latest)
 
 **To Install:** Click the release link above (or click **Releases** on the right side of this page if you are on a desktop browser). Scroll down to the **Assets** section at the bottom of that release page, tap the `.apk` file to download it, and select "Install Anyway" if prompted by your Android device.
 
