@@ -2,6 +2,17 @@
 
 ---
 
+## 🚀 2.3.1 — 2026-07-02
+
+### 🔧 Fixed
+- **📱 Android 11 (API 30) crash** — Fixed `RemoteViews.setColorStateList()` API guard from `Build.VERSION.SDK_INT >= 29` to `>= 31`. This method was added in Android 12, so calling it on API 30 caused an immediate `NoSuchMethodError` crash on startup and in widget rendering
+- **⚙️ Android 16 service crash** — `BootReceiver` called `startForegroundService()` unconditionally on boot without checking location permissions, causing `ForegroundServiceStartNotAllowedException`. Added permission check before starting the service; shows notification to open app when permissions missing
+
+### 🎨 Changed
+- **📈 Version** — 2.3.0 → **2.3.1** (code 16 → 17)
+
+---
+
 ## 🚀 2.3.0 — 2026-06-23
 
 ### ✨ Added
