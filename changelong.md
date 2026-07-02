@@ -9,7 +9,7 @@
 - **⚙️ Android 16 service crash** — `BootReceiver` called `startForegroundService()` unconditionally on boot without checking location permissions, causing `ForegroundServiceStartNotAllowedException`. Added permission check before starting the service; shows notification to open app when permissions missing
 
 ### 🎨 Changed
-- **📈 Version** — 2.3.0 → **2.3.1** (code 16 → 17)
+- **📈 Version** — 2.3.0 → **2.3.1**
 
 ---
 
