@@ -1,79 +1,111 @@
-# 🌤️ Charlene's Weather
+<h1><sub><img src="https://codeberg.org/callihn/CharlenesWeather/raw/branch/main/icon.png" height="40" width="40" alt="Charlene's Weather Icon"></sub>&nbsp;<b>Charlene's Weather</b></h1>
 
-> *Created by Matthew Callihan in loving memory of his wife Charlene — a devoted wife, California native, Skywarn Weather Spotter, and lifelong weather enthusiast.*
+*Created by Matthew Callihan in loving memory of his wife Charlene — a devoted wife, California native, Skywarn Weather Spotter and lifelong weather enthusiast.*
 
-Powered by NOAA/NWS data (US Only), Charlene's Weather delivers accurate, hyperlocal weather information with a clean, intuitive interface.
-
----
-
-### 📥 Download the Latest Version
-Because this app is developed independently and distributed as an APK outside of the Google Play Store, the installation file is hosted right here on the project's release page:
-
-[![Get the App](https://img.shields.io/github/v/release/callihn/Charlene-s-Weather?style=for-the-badge&label=%F0%9F%9A%80%20Get%20the%20App&color=2ea44f)](https://github.com/callihn/Charlene-s-Weather/releases/latest)
-
-**To Install:** Click the release link above (or click **Releases** on the right side of this page if you are on a desktop browser). Scroll down to the **Assets** section at the bottom of that release page, tap the `.apk` file to download it, and select "Install Anyway" if prompted by your Android device.
+Powered by NOAA / National Weather Service data. No third-party weather services. No ads. No tracking.
 
 ---
 
-# 📸 Screenshots
+🪄 Features
 
-<details>
-<summary>Click here to expand app screenshots</summary>
-<br />
+**Live Conditions** — Temperature, humidity, wind, rain chance, high/low — all from NWS
 
-| | | |
-| :---: | :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/514be1cf-1ee0-4416-885f-12e6f677cfef" width="220" alt="Screenshot 1" /> | <img src="https://github.com/user-attachments/assets/f06440f9-3902-4eed-bb84-c3fce4937d4d" width="220" alt="Screenshot 2" /> | <img src="https://github.com/user-attachments/assets/be60aab0-8c0f-4a2d-9571-4d2ac63272dc" width="220" alt="Screenshot 3" /> |
-| <img src="https://github.com/user-attachments/assets/44ad41ac-7bc8-4da2-b833-b8b7b0a060c7" width="220" alt="Screenshot 4" /> | <img src="https://github.com/user-attachments/assets/48a662e2-14f3-4515-9ae1-3b7b997f355d" width="220" alt="Screenshot 5" /> | <img src="https://github.com/user-attachments/assets/37bbed6a-047c-44fb-a084-5d4826055f49" width="220" alt="Screenshot 6" /> |
-| <img src="https://github.com/user-attachments/assets/7669414e-28e2-4c97-9564-4fd0f3d1809f" width="220" alt="Screenshot 7" /> | <img src="https://github.com/user-attachments/assets/1ad07ffb-7829-4f44-821b-0a1370526067" width="220" alt="Screenshot 8" /> | <img src="https://github.com/user-attachments/assets/891c7bb9-58e3-442e-a9ab-2c0378638315" width="220" alt="Screenshot 9" /> |
-| <img src="https://github.com/user-attachments/assets/ec194b18-4303-47f8-b334-0e2c2cc65742" width="220" alt="Screenshot 10" /> | <img src="https://github.com/user-attachments/assets/3798f64e-4218-4e1a-af16-c46e90f6a083" width="220" alt="Widget Preview" /> | |
+**Updated Timestamp** — "Updated: [time]" text between the current conditions card and the 7-day forecast, showing when the station data was last fetched. The reporting station's ID (for example KLIT) sits at the right end of that same line, in the app and on the widget's timestamp line
 
-</details>
+**Weather Backgrounds** — Dynamic backgrounds on the main screen that change based on current conditions: Clear, Few Clouds, Partly Cloudy, Broken Clouds, Overcast, Rain, Thunderstorm, Snow, Fog, Windy, and Severe. Each has day and night variants. 22 backgrounds total. Toggle in Settings. Preview all backgrounds from the Settings page
+
+**7-Day Forecast** — Scrollable day/night tiles with color-coded temperatures. Average high/low shown beneath the title
+
+**Hourly Forecast** — 24-hour breakdown with day labels, time, temp, icon, and short forecast. Tap the forecast title to toggle between 7-day and hourly views
+
+**Live Radar** — Animated NWS radar preview on main screen. Tap for full interactive radar.weather.gov with local station pre-loaded
+
+**GPS Location** — Tap the GPS icon for a one-shot location fetch. Never saves GPS location when GPS mode is OFF.
+
+  **Persist Location setting** (Settings gear):
+  - **OFF** (default): App always starts with fresh GPS. The GPS location is not persisted; searched locations work in-session only
+  - **ON**: Saved location persists across restarts. GPS runs in background without overwriting it
+
+**Light & Dark Themes** — Warm tan/royal blue light theme or pure black dark theme. Weather backgrounds adapt to the current theme
+
+**Rainbow Title** — Rainbow-colored title text with contrasting outline for readability against any background. Semi-transparent scrim backdrop when weather backgrounds are active
+
+**Skywarn Program** — "Join Skywarn" dialog with official logo, program info, NOAA notice, and link to your local NWS office Skywarn page
+
+**Home Screen Widget** — At-a-glance current conditions + 3-day forecast with split day/night icons. Displays condition-based backgrounds matching the main app (independently toggleable). Widget theme can be set separately: Match App, Dark, or Light. Red alert triangle when NWS alerts are active. Auto-refreshes every 5 minutes, on device unlock, and when you open the app. If an update can't complete, the status line shows why: No Network, No Location, No GPS, or No Fix
+
+**US Station Search** — 2,600+ NWS/FAA official stations — filter by name or ID as you type
+
+**NWS Forecast View** — Full forecast.weather.gov with pinch-to-zoom, desktop mode toggle, and three-dot menu (Open in Browser / Refresh)
+
+**Weather Alert Notifications** — Configurable NWS alert notifications for watches, advisories, warnings, marine, fire weather, statements, and more. Select categories in Settings. Alerts automatically filtered to only those covering your specific county. Warnings and watches ring through with EAS alarm sound by default; advisories and statements post silently. Each category has its own sound toggle if you want to override the defaults. Do Not Disturb bypass link in Settings lets critical alerts sound through even in DND mode
+
+**NWS 911 System Down Alerts** — Standalone option to get notified when 911 service is disrupted in your area, separate from weather alert categories
+
+**Pet Temperature Alerts** — Get notified when temperatures are unsafe for your pet. Alerts at 32F (quick potty breaks only), 68F (chilly — watch for shivering), 75F (limit heavy exercise, seek shade), and 82F (bring inside — heat stress risk). Optional sound and morning forecast alerts
+
+**Freeze Alert** — Separate toggle for freezing temperature notifications at 32F with optional sound
+
+**Rain Alert** — Simple on/off switch in Settings. Fires a silent notification when rain is expected or already occurring nearby, judged from the hourly forecast, the station's own weather report, active NWS alerts, and chance of precipitation. Nothing to tune — fires once per onset and re-arms once the rain clears
+
+**Temperature Colors** — Purple below 33F, Blue 33-67F, Green 68-74F, Orange 75-82F, Red above 82F
+
+**Temperature-Colored Borders** — Current conditions card and forecast tiles have thin borders color-coded to match the temperature
+
+**Rounded Icons** — 12dp rounded corners on all weather icons throughout the app and widget
+
+**Tablet Ready** — Optimized layout for 7"+ tablets
+
+**Pull to Refresh** — Swipe down to refresh everything — GPS, weather, forecast, radar
+
+**Per-Station Cache** — Weather data cached in per-station folders on disk. Forecast, hourly, and observation data served from cache when still fresh. Cache capped at 5MB with automatic cleanup of stale entries
+
+**Loading Indicator** — Centered overlay with app icon, cloud progress indicators, and step-by-step status messages while weather loads. Shows error states with Retry and Close App buttons. Station fallback status updates in real time
+
+**Notification Shade Weather** — Persistent notification showing current temperature (color-coded), rain chance, humidity, wind, location name, and last update time with station ID at a glance in the notification shade
 
 ---
 
-## 🪄 Features
+📚 How to Use
 
-- **Pull-to-Refresh** — Swipe down on the main screen to refresh GPS location, weather data, forecast, and radar. Horizontal scroll of the 7-day forecast won't accidentally trigger a refresh.
-- **NWS API Compliance** — All API requests to api.weather.gov include a proper User-Agent identity header. A built-in 5-minute throttle (respecting server Cache-Control hints) prevents excessive requests. The throttle is bypassed automatically when your location changes significantly, ensuring fresh data when you move.
-- **Live Weather Data** — Current conditions with temperature, humidity, wind speed, and chance of rain, all sourced directly from the National Weather Service.
-- **7-Day Forecast** — Scroll horizontally through daily forecasts with day/night icons, high/low temperatures, and color-coded temperature displays.
-- **Interactive Radar** — Animated NWS radar preview on the main screen. Tap to open the full live radar.weather.gov site with your local station pre-loaded. Use the site's built-in controls for zoom, pan, and product switching (reflectivity, velocity, precipitation, etc.).
-- **GPS Location** — Automatically detects your location and resolves the nearest city name. Also supports manual city search.
-- **Light & Dark Themes** — Toggle between a warm tan/royal blue light theme and a pure black dark theme.
-- **Home Screen Widget** — At-a-glance weather with current conditions and a 3-day forecast. Weather data refreshes when the app is opened and periodically in the background (every 15 minutes via WorkManager).
-- **Tablet Optimized** — Automatic tablet layout with larger text, icons, and spacious design for 7"+ devices.
-- **US Station Search** — Find any US ASOS weather station with live filtering as you type, powered by the built-in stations database for instant offline results.
-- **Temperature Color Coding** 
-  * 🟪 **Purple:** Below 33°F
-  * 🟦 **Blue:** 33–67°F
-  * 🟩 **Green:** 68–74°F
-  * 🟧 **Orange:** 75–82°F
-  * 🟥 **Red:** Above 82°F
+**Refresh weather** — Weather data is refreshed from the National Weather Service every 5 minutes (the NWS API policy limit), so it's always as fresh as possible. Swipe down to refresh weather for the current location, or tap the GPS icon to re-locate and load that location's weather
 
----
+**Open menu** — Tap the menu icon for search, theme toggle, what's new, read me, Skywarn info, About, Support. Gear icon opens Settings
 
-## 📚 How to Use
+**Current conditions** — Tap the weather icon to open the detailed NWS forecast page
 
-- **Refresh weather** — Weather data fetches from the National Weather Service each time the app opens. Swipe down on the main screen or tap the GPS icon to manually refresh your location and weather data. Refreshes are limited to once every 5 minutes unless your location changes.
-- **Open the menu** — Tap the three-dot menu icon (⋮) to search locations, toggle themes, view the about page, or donate.
-- **Widget** — Add the Charlene's Weather widget to your home screen for at-a-glance weather. Tap it to open the app and trigger a fresh data fetch.
-- **Current conditions** — Tap the current weather icon to open the detailed NWS forecast page for your location.
-- **Radar** — The radar preview on the main screen automatically shows your local NWS radar. Tap the preview to open the full live radar site. The menu lets you toggle between local and national views.
-- **Forecast** — Scroll horizontally through the 7-day forecast tiles with day/night details.
-- **Search** — Use the search option in the menu to find any US weather station by city name or station ID with real-time, live-filtering results.
+**Toggle forecast mode** — Tap "7-Day Forecast" title to switch between 7-day and hourly views
+
+**Radar** — Tap radar preview for full interactive radar. Menu lets you toggle local/national
+
+**Search** — Menu > Search Location — type any US station name or ID
+
+**Widget** — Add to home screen with condition-based backgrounds and red alert triangle when warnings active. Tap to open the app. Auto-updates every 5 minutes
+
+**Settings** — Tap the gear icon in the menu to configure alert notifications, pet temperature alerts, persistent location, background location, and more
 
 ---
 
-## 🔐 Permissions
+🌎 NWS API Compliance
 
-To provide accurate data, background widget updates, and seamless location tracking, the app utilizes the following standard Android permissions:
+Identity — All requests include "Charlene's Weather" User-Agent
 
-| Permission | Purpose |
-| :--- | :--- |
-| INTERNET | Required to securely fetch live weather maps, radar tiles, and regional forecasts directly from NOAA/NWS servers. |
-| ACCESS_FINE_LOCATION | Allows the app to pinpoint your precise GPS coordinates for highly accurate, neighborhood-level weather reporting. |
-| ACCESS_COARSE_LOCATION | Serves as an immediate cell-tower/Wi-Fi fallback to determine your general city area if high-precision GPS is turned off. |
-| ACCESS_BACKGROUND_LOCATION | Enables the home screen widget to periodically check your position and update weather profiles while your device is asleep or traveling. |
-| RECEIVE_BOOT_COMPLETED | Automatically updates the second your phone or tablet finishes turning on. |
-| FOREGROUND_SERVICE_DATA_SYNC | Ensures stable background updates for the 5-minute widget refresh interval without being preemptively terminated by strict Android OS memory management policies. |
+Throttle — Minimum 5-minute wait between fetches for the same station; bypassed on station change. Per-station file cache handles data freshness with file timestamps
+
+Reliability — Automatic retries with smart timing ensure data loads even on slow connections
+
+GPS fresh fix — Each widget cycle requests a fresh high-accuracy GPS fix. No cached or stale location is ever reused
+
+---
+
+💽 Data Source
+
+National Weather Service / NOAA / FAA — api.weather.gov
+
+Observations come from the nearest official weather stations reported by the National Weather Service. A station is only used when it reports a current-conditions icon, a temperature, and at least two of humidity, wind speed, and chance of precipitation — so no half-empty cards. If the closest station is one reading short (many report a wind speed but no humidity), the app asks forecast.weather.gov to complete it, the same way it already completes a missing icon. If the closest station still can't be completed, the app automatically tries nearby stations for better data.
+
+No third-party weather APIs, no ads, no analytics, no data collection.
+
+📦 Download:
+
+<a href="https://apkpure.com/charlene-s-weather/com.matts.weather"><img src="https://codeberg.org/callihn/CharlenesWeather/raw/branch/main/apkpure_button.png" height="50" alt="Charlene's Weather Download"></a>
